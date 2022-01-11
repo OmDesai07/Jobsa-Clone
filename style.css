@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;     
+}
+
+.logo{
+    width: 22px;
+    padding: 20px 0px 0px 150px;
+}
+
+.MainName{
+    padding: 20px 0px 0px 173px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size:18px;
+    display: contents;
+}
+ #NavBar{
+    padding: 20px 150px 0px 0px;
+    float: right;
+}
+
+#NavBar a{
+    padding-right: 30px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: rgb(173, 173, 173);
+
+}
+
+#NavBar button{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+#NavBar button #btn{
+    padding: 10px;
+    color: rgb(46, 91, 240);
+
+}
+.Middle {
+    font-family: 'Rubik', sans-serif;
+    /* background-color: red; */
+    width: 465px;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.Middle h1{
+    
+    padding: 0px 148px 5px 0px;
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.Middle h4{
+    
+    padding:10px 68px 5px 0px;
+    color: rgb(184, 182, 182);
+    font-weight: 500;
+}
+
+.Drop-Cv{
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(238, 232, 232);
+    width: 463px;
+    margin-left: 150px;
+    margin-top: 25px;
+    border: 0.5px;
+    border-style: dashed;
+    border-radius: 20px;
+    border-color:rgb(192, 189, 189); 
+}
+.Drop-Cv #Doc-img img{
+    width: 35px;
+    padding-left: 212px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.Drop-Cv p{
+    color: rgb(184, 182, 182);
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.Drop-Cv p a{
+    padding-left: 3.5px;
+    text-decoration: none;
+    color: rgb(46, 91, 240);
+}
+
+.Right-Bar{
+    background-color: rgb(248, 250, 244);
+    margin-left: 770px;
+    margin-right: 200px;
+    margin-top: -455px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+}
+
+.Right-Bar h2{
+    font-size: 23px;
+    font-weight: 900;
+    padding: 40px 0px 15px 35px;
+}
+
+.Right-Bar h4{
+    color: rgb(184, 182, 182);
+    font-weight: 500;
+    padding: 0px 35px 20px 35px;
+}
+
+.Search-Bar{
+    /* background-color: coral; */
+    padding-left: 35px;
+    padding-top: 15px;
+    
+}
+.Search-Bar input{
+    background-color: rgb(238, 232, 232);
+    padding: 10px 10px 10px 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 500;  
+    border-radius: 10px;
+    border-color: transparent;
+    width: 285px;
+}
+#Location {
+    width: 310px;
+}
+.Search-Bar input::placeholder{
+    color: rgb(194, 191, 191);
+}
+
+.Search-Bar select{
+    background-color: rgb(238, 232, 232);
+    padding: 10px 98px 10px 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 500;  
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+#Specialist{
+    color: rgb(194, 191, 191);
+    width: 310px;
+}
+#Specialist:hover{
+cursor: pointer;
+}
+#Specialist option {
+    color: rgb(0, 0, 0);
+}
+
+
+.Search-Bar button{
+    background-color:rgb(46, 91, 240);
+    font-size: 13px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;  
+    border-radius: 10px;
+    /* border-color: transparent; */
+    width: 310px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+    color: wheat;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+.Search-Bar button:hover{
+    cursor: pointer;
+    box-shadow: rgb(19, 18, 18);
+}
+
+.Bottom{
+    margin: 70px 150px 10px 150px;
+    /* background-color: hotpink; */
+    height: 100px;
+}
+.Avatar{
+    margin: 5px -10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.Bottom-Text p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    margin-right: 750px;
+    color: rgb(51, 48, 48);
+}
+.Bottom-Right h5{
+    display: flex;
+    justify-content: flex-end;
+    
+    margin-top: -85px;
+    margin-right: 170px;
+    font-size: 21px;
+    font-family: 'Rubik', sans-serif;
+}
+.Line{
+    border-bottom: 2px solid rgb(184, 184, 184);
+    display: block;
+    margin-left: 590px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.Companies {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex-end;
+    margin-top: 10px;
+    /* width: 12px; */
+}
+.Companies img{
+    width: 90px;
+    height: 25px;
+    padding-right: 28px;
+}
